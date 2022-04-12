@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color:rgb(224, 221, 170);
+}
+
+body{
+    background-color: rgb(244, 252, 217);
+}
+
+.titulo{
+    color: aquamarine;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.nav{
+    background:rgb(20, 30, 39);
+    height: 200px;
+}
+
+.navbar ul{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.barra {
+    color: white;
+    background: rgb(32, 50, 57);
+    border: 3px solid black;
+    width: 60px;
+    padding: 12px;
+}
+
+main{
+    padding: 50px;
+}
+
+.texto_home{
+    border: 3px dotted black;
+    padding: 15px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.musculosaburton{
+    width: 50%;
+    text-align: center;
+}
+/* locales */
+.ubicaciones{
+    padding: 30px;
+    display: flex;
+}
+
+.quinta{
+    padding: 50px;
+}
+
+.casarosada{
+    padding: 50px;
+}
+
+/* ofertas */
+.ofertasimagenes{
+width: 30%;
+}
+
+/* contacto */
+
+#contacto{
+    padding: 30px;
+    text-align: center;
+}
+/* inputs */
+#contacto input{
+    background:  rgb(238, 237, 222);
+    color: rgb(32, 50, 57);
+    border: inset rgb(32, 50, 57);
+    margin: 5px;
+    padding: 5px;
+    width: 60%;
+}
+
+#contacto input:hover{
+    background: rgb(224, 221, 170);
+    border: inset rgb(32, 50, 57);
+}
+/*  */
+
+/* textarea */
+#contacto textarea{
+    background: rgb(238, 237, 222);
+    color: rgb(32, 50, 57);
+    border: inset rgb(32, 50, 57);
+    margin: 5px;
+    padding: 5px;
+    width: 60%;
+}
+ 
+#contacto textarea:hover{
+    background: rgb(224, 221, 170);
+    border: outset rgb(32, 50, 57);
+}
+/*  */
+
+/* btn enviar */
+  .btn-enviar{
+    background: rgb(238, 237, 222);
+    color: rgb(32, 50, 57);
+    border: inset rgb(32, 50, 57);
+    margin: 5px;
+    padding: 5px;
+    width: 15%;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .btn-enviar:hover{
+    background: rgb(224, 221, 170);
+    border: outset rgb(32, 50, 57);
+  }
+/*  */
+footer{
+    border-top: 2px solid black;
+    background-color: rgb(32, 50, 57);
+    color: rgb(200, 200, 200);
+    
+}
+
+
+.grid-container{
+display: grid;
+background-color: grey;
+grid-template-columns: auto auto auto auto auto;
+column-gap: 10px;
+
+}
+.grid-container div{
+    background-color: bisque;
+    margin: 5px;
+}
+
+.square-uno, .square-dos{
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+
+.square-uno{
+    background-color: rgb(222, 172, 117);
+}
+.square-dos{
+    background-color: rgb(255, 228, 190);
+    transition: all .8s;
+}
+
+.square-dos:hover{
+    transform: translate(20px, 20px);
+    opacity: 0.2;
+
+}
+
+
+.square-tres{
+    background-color: rgb(222, 172, 117);
+}
+.square-cuatro{
+    background-color: rgb(255, 228, 190);
+    transition: all .8s;
+}
+
+.square-cuatro:hover{
+    transform: translate(20px, 20px);
+    opacity: 0.2;
+
+}
+
+.square-cuatro, .square-tres{
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    
+}
+
+
+
+.square-cinco{
+    background-color: rgb(234, 205, 163);
+    transition: all .8s;
+}
+
+.square-seis:hover{
+    transform: translate(20px, 20px);
+    opacity: 0.2;
+
+}
+.square-cinco, .square-seis{
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    position: absolute;
+    top: 0px;
+    right: 400px;
+    
+}
+
+
+
